@@ -1,6 +1,9 @@
-Features	
-MSA	improving the accuracy of protein structure predictions.
-CCD coordinates	Coordinates Analysis
+############
+##Features##
+############
+
+MSA				#improving the accuracy of protein structure predictions.
+CCD coordinates			#Coordinates Analysis
 Intra-ligand bonds	
 Ligand-polymer bonds	
 non-standard residues	
@@ -9,23 +12,27 @@ non-standard residues
 	
 	
 	
-	
-Label		
-Experimental Data	*Curated from the PDB	Data Types
-Prediction Data	*AlphaFold2 and OpenFold predictions	
-RMSD	*Pocket-aligned ligand RMSD	Metrics
-DockQ Score	*protein interfaces	
-LDDT score	*protein-nucleic acid interactions	
-TM score	*Template modeling score	
-ipTM 	*interface pTM	
-pLDDT	*Per-residue confidence for structural accuracy	
-Chain Permutation		Algorithms
+############	
+###Label####
+############
+
+Experimental Data		#*Curated from the PDB	Data Types
+Prediction Data			#*AlphaFold2 and OpenFold predictions	
+RMSD				#*Pocket-aligned ligand RMSD				##Metrics##
+DockQ Score			#*protein interfaces	
+LDDT score			#*protein-nucleic acid interactions	
+TM score			#*Template modeling score	
+ipTM 				#*interface pTM	
+pLDDT				#*Per-residue confidence for structural accuracy	
+Chain Permutation									##Algorithms
 Atom Permutation		
 Diffusion Loss Weighting		
 
 
+#########
+##Tools##
+#########
 
-Tools
 MMSEQS2, ColabFold
 RDKit, pdbeccdutils, CCD
 PoseBusters, DockQ, OpenStructure
